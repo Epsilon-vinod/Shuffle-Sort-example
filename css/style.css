@@ -1,0 +1,147 @@
+.background-bg {
+    background: #EFEFEF;
+    height: 600px;
+    padding-top: 20px;
+}
+
+.square {
+    height: 150px;
+}
+
+.tile-2,
+.tile-4 {
+    background: #2B8EAD;
+}
+
+.tile-1,
+.tile-8 {
+    background: #6F98A8;
+}
+
+.tile-3,
+.tile-5,
+.tile-9 {
+    background: #2F454E;
+}
+
+.tile-6,
+.tile-7 {
+    background: #BFBFBF;
+}
+
+.tile-content {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.right-section {
+    padding-top: 0;
+    text-align: center;
+}
+
+.bottom-text {
+    padding: 10px;
+}
+
+.button a {
+    padding: 15px;
+    background: #2B8EAD;
+    display: inline-block;
+    min-width: 120px;
+    margin-top: 20px;
+    color: #fff;
+    box-shadow: 2px 3px #2B8EAD;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button a:hover,
+.button a:active,
+.button a:focus {
+    text-decoration: none;
+}
+
+@media (max-width:991px) and (min-width:320px) {
+    .background-bg {
+        background: #fff;
+        border: 6px solid #000;
+        border-radius: 10px;
+        height: auto;
+        padding: 0 15px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .square {
+        background: #EFEFEF;
+        margin-bottom: 10px;
+        height: auto;
+    }
+    .top-text {
+        background: #333;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 0;
+        padding: 10px;
+    }
+    .main-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-tile-1 {
+        order: 2;
+    }
+    .tile {
+        padding: 0;
+    }
+    .text-white {
+        padding: 0 30px;
+    }
+    h1 {
+        font-size: 16px;
+        color: #000;
+    }
+    .tile-2,
+    .tile-4 {
+        border-left: 6px solid #2B8EAD;
+    }
+    .tile-1,
+    .tile-8 {
+        border-left: 6px solid #6F98A8;
+    }
+    .tile-3,
+    .tile-5,
+    .tile-9 {
+        border-left: 6px solid #2F454E;
+    }
+    .tile-6,
+    .tile-7 {
+        border-left: 6px solid #BFBFBF;
+    }
+    .right-section {
+        display: flex;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    .button {
+        margin-right: 10px;
+    }
+    .button a {
+        margin-top: 0;
+        padding: 5px;
+        min-width: 80px;
+    }
+}
